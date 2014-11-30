@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1836915B1A2AD4AF00ED05A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836915A1A2AD4AF00ED05A6 /* AppDelegate.swift */; };
+		1836915E1A2AD4AF00ED05A6 /* YikChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1836915C1A2AD4AF00ED05A6 /* YikChat.xcdatamodeld */; };
+		183691601A2AD4AF00ED05A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836915F1A2AD4AF00ED05A6 /* ViewController.swift */; };
+		183691631A2AD4AF00ED05A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183691611A2AD4AF00ED05A6 /* Main.storyboard */; };
+		183691651A2AD4AF00ED05A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183691641A2AD4AF00ED05A6 /* Images.xcassets */; };
+		183691681A2AD4AF00ED05A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183691661A2AD4AF00ED05A6 /* LaunchScreen.xib */; };
+		183691741A2AD4AF00ED05A6 /* YikChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183691731A2AD4AF00ED05A6 /* YikChatTests.swift */; };
+		1836917E1A2AD51900ED05A6 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1836917D1A2AD51900ED05A6 /* MultipeerConnectivity.framework */; };
+		183691801A2AE17D00ED05A6 /* MainMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836917F1A2AE17D00ED05A6 /* MainMessage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1836916E1A2AD4AF00ED05A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1836914D1A2AD4AF00ED05A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183691541A2AD4AF00ED05A6;
+			remoteInfo = YikChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183691551A2AD4AF00ED05A6 /* YikChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YikChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183691591A2AD4AF00ED05A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1836915A1A2AD4AF00ED05A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1836915D1A2AD4AF00ED05A6 /* YikChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YikChat.xcdatamodel; sourceTree = "<group>"; };
+		1836915F1A2AD4AF00ED05A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		183691621A2AD4AF00ED05A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		183691641A2AD4AF00ED05A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		183691671A2AD4AF00ED05A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1836916D1A2AD4AF00ED05A6 /* YikChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YikChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183691721A2AD4AF00ED05A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183691731A2AD4AF00ED05A6 /* YikChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YikChatTests.swift; sourceTree = "<group>"; };
+		1836917D1A2AD51900ED05A6 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		1836917F1A2AE17D00ED05A6 /* MainMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMessage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183691521A2AD4AF00ED05A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1836917E1A2AD51900ED05A6 /* MultipeerConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1836916A1A2AD4AF00ED05A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1836914C1A2AD4AF00ED05A6 = {
+			isa = PBXGroup;
+			children = (
+				1836917D1A2AD51900ED05A6 /* MultipeerConnectivity.framework */,
+				183691571A2AD4AF00ED05A6 /* YikChat */,
+				183691701A2AD4AF00ED05A6 /* YikChatTests */,
+				183691561A2AD4AF00ED05A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183691561A2AD4AF00ED05A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183691551A2AD4AF00ED05A6 /* YikChat.app */,
+				1836916D1A2AD4AF00ED05A6 /* YikChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183691571A2AD4AF00ED05A6 /* YikChat */ = {
+			isa = PBXGroup;
+			children = (
+				1836915A1A2AD4AF00ED05A6 /* AppDelegate.swift */,
+				1836915F1A2AD4AF00ED05A6 /* ViewController.swift */,
+				1836917F1A2AE17D00ED05A6 /* MainMessage.swift */,
+				183691611A2AD4AF00ED05A6 /* Main.storyboard */,
+				183691641A2AD4AF00ED05A6 /* Images.xcassets */,
+				183691661A2AD4AF00ED05A6 /* LaunchScreen.xib */,
+				1836915C1A2AD4AF00ED05A6 /* YikChat.xcdatamodeld */,
+				183691581A2AD4AF00ED05A6 /* Supporting Files */,
+			);
+			path = YikChat;
+			sourceTree = "<group>";
+		};
+		183691581A2AD4AF00ED05A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183691591A2AD4AF00ED05A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		183691701A2AD4AF00ED05A6 /* YikChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				183691731A2AD4AF00ED05A6 /* YikChatTests.swift */,
+				183691711A2AD4AF00ED05A6 /* Supporting Files */,
+			);
+			path = YikChatTests;
+			sourceTree = "<group>";
+		};
+		183691711A2AD4AF00ED05A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183691721A2AD4AF00ED05A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183691541A2AD4AF00ED05A6 /* YikChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183691771A2AD4AF00ED05A6 /* Build configuration list for PBXNativeTarget "YikChat" */;
+			buildPhases = (
+				183691511A2AD4AF00ED05A6 /* Sources */,
+				183691521A2AD4AF00ED05A6 /* Frameworks */,
+				183691531A2AD4AF00ED05A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YikChat;
+			productName = YikChat;
+			productReference = 183691551A2AD4AF00ED05A6 /* YikChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1836916C1A2AD4AF00ED05A6 /* YikChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1836917A1A2AD4AF00ED05A6 /* Build configuration list for PBXNativeTarget "YikChatTests" */;
+			buildPhases = (
+				183691691A2AD4AF00ED05A6 /* Sources */,
+				1836916A1A2AD4AF00ED05A6 /* Frameworks */,
+				1836916B1A2AD4AF00ED05A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1836916F1A2AD4AF00ED05A6 /* PBXTargetDependency */,
+			);
+			name = YikChatTests;
+			productName = YikChatTests;
+			productReference = 1836916D1A2AD4AF00ED05A6 /* YikChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1836914D1A2AD4AF00ED05A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Q Kalantary";
+				TargetAttributes = {
+					183691541A2AD4AF00ED05A6 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					1836916C1A2AD4AF00ED05A6 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 183691541A2AD4AF00ED05A6;
+					};
+				};
+			};
+			buildConfigurationList = 183691501A2AD4AF00ED05A6 /* Build configuration list for PBXProject "YikChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1836914C1A2AD4AF00ED05A6;
+			productRefGroup = 183691561A2AD4AF00ED05A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183691541A2AD4AF00ED05A6 /* YikChat */,
+				1836916C1A2AD4AF00ED05A6 /* YikChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183691531A2AD4AF00ED05A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183691631A2AD4AF00ED05A6 /* Main.storyboard in Resources */,
+				183691681A2AD4AF00ED05A6 /* LaunchScreen.xib in Resources */,
+				183691651A2AD4AF00ED05A6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1836916B1A2AD4AF00ED05A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183691511A2AD4AF00ED05A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183691601A2AD4AF00ED05A6 /* ViewController.swift in Sources */,
+				1836915B1A2AD4AF00ED05A6 /* AppDelegate.swift in Sources */,
+				183691801A2AE17D00ED05A6 /* MainMessage.swift in Sources */,
+				1836915E1A2AD4AF00ED05A6 /* YikChat.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183691691A2AD4AF00ED05A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183691741A2AD4AF00ED05A6 /* YikChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1836916F1A2AD4AF00ED05A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183691541A2AD4AF00ED05A6 /* YikChat */;
+			targetProxy = 1836916E1A2AD4AF00ED05A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		183691611A2AD4AF00ED05A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183691621A2AD4AF00ED05A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		183691661A2AD4AF00ED05A6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183691671A2AD4AF00ED05A6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183691751A2AD4AF00ED05A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		183691761A2AD4AF00ED05A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183691781A2AD4AF00ED05A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YikChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		183691791A2AD4AF00ED05A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YikChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1836917B1A2AD4AF00ED05A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YikChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YikChat.app/YikChat";
+			};
+			name = Debug;
+		};
+		1836917C1A2AD4AF00ED05A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YikChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YikChat.app/YikChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183691501A2AD4AF00ED05A6 /* Build configuration list for PBXProject "YikChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183691751A2AD4AF00ED05A6 /* Debug */,
+				183691761A2AD4AF00ED05A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183691771A2AD4AF00ED05A6 /* Build configuration list for PBXNativeTarget "YikChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183691781A2AD4AF00ED05A6 /* Debug */,
+				183691791A2AD4AF00ED05A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1836917A1A2AD4AF00ED05A6 /* Build configuration list for PBXNativeTarget "YikChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1836917B1A2AD4AF00ED05A6 /* Debug */,
+				1836917C1A2AD4AF00ED05A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1836915C1A2AD4AF00ED05A6 /* YikChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1836915D1A2AD4AF00ED05A6 /* YikChat.xcdatamodel */,
+			);
+			currentVersion = 1836915D1A2AD4AF00ED05A6 /* YikChat.xcdatamodel */;
+			path = YikChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1836914D1A2AD4AF00ED05A6 /* Project object */;
+}
